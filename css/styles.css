@@ -1,0 +1,227 @@
+/* Global -------------------------------------------------------------------*/
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {  
+    font-family: "Montserrat";
+    font-weight: bold; 
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Heading */
+.big-heading {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    font-weight: bold;  
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+ /* Container fluid padding */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Backgrounds */
+.colored-section {
+    background-color: #FF4C68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #FFF;
+}
+
+
+/* Title Section-------------------------------------------------------------*/
+
+#title {
+    text-align: left;
+}
+
+/* Container fluid padding */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: "Ubuntu";
+}
+
+.nav-item {
+    margin: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Downlad Button */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-img {
+    width: 18%; /* 60% */
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Responseness Logic */
+@media (max-width: 1250px) {
+    .title-container-fluid {
+        padding: 3% 8% 7%;
+    }
+    
+    .title-img {
+        right: 15%;
+        width: 25%;
+    }
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+
+
+/* Features Section ---------------------------------------------------------*/
+
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.features-icon {
+    color: #EF8172;
+    margin-bottom: 1rem;
+}
+
+.features-title {
+    font-size: 1.5rem;
+}
+
+.features-content {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.features-icon:hover {
+    color: #FF4C68;
+}
+
+
+/* Testimonials Section -----------------------------------------------------*/
+
+#testimonials {
+    background-color: #EF8172;
+}
+
+.testimonials-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px auto;
+}
+
+
+/* Press Section ------------------------------------------------------------*/
+
+#press {
+    background-color: #EF8172;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Session ----------------------------------------------------------*/
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+} 
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.premium-card h3 {
+    color: #fff;
+}
+
+#pricing br {
+    margin-bottom: 16px;
+}
+
+#pricing h3 {
+    margin: 8px auto;
+}
+
+
+/* Cta Session  -------------------------------------------------------------*/
+
+/* Responseness Logic */
+@media (max-width: 1200px) {
+    #cta .container-fluid { 
+        padding: 7% 12%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #cta .container-fluid { 
+        padding: 7% 6%;
+    }
+}
+
+@media (max-width: 800px) {
+    #cta .container-fluid { 
+        padding: 7% 3%;
+    }
+}
+
+
+/* Footer Session  -------------------------------------------------------------*/
+
+#footer {
+    margin: 7%;
+}
+
+#footer i {
+    margin: 20px 5px;
+}
